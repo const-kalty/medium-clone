@@ -1,0 +1,203 @@
+*{
+    font-family: Annapurna SIL;
+    margin: 0;
+    padding: 0;
+}
+
+.dark{
+    padding: 0.5px;
+    border: none;
+    background-color: black;
+}
+.white{
+    padding: 0.5px;
+    border: none;
+    background-color: lightgrey;
+}
+    
+.navbar{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    display: flex;
+    background-color: rgb(255, 192, 23);
+    align-items: center;
+}
+.logo{
+   margin-left: 150px;
+    width: 40%;
+   
+}
+.navItems {
+    align-items: center;
+    width: 40%;
+    
+}
+.navItems ul{
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+.navItems a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navButton{
+    width: 20%;
+    
+}
+.navButton button{
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+
+}
+.landingPage{
+    padding-left: 10%;
+    background-color: rgb(255, 192, 23);
+}
+.header{
+    font-size: 150px;
+    padding-bottom: 10px;
+}
+.para{
+    font-size: 35px;
+    line-height: 1;
+    word-spacing: -2px;
+    padding-bottom: 50px;
+}
+.landingPage button{
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 250px;
+    border-radius: 80px;
+    margin-bottom: 50px;
+}
+.trending{
+    margin-top: 50px;
+    padding-left: 8%;
+}
+.chart{
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 1%;
+}
+.trendingHeader{
+    font-weight: 970;
+    font-size: 20px;
+    
+}
+.trendingBox{
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.trendingBox div{
+    flex-basis: 30%;
+}
+.number{
+    padding-right: 5px;
+    font-size: 30px;
+    color: lightgray;
+}
+.trendingBox h4{
+    /* font-size: 25px; */
+    padding: 10px 38px ;
+    
+}
+.trendingBox small{
+    padding-left: 38px;
+}
+
+.newsPage{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.news{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.newsContainer{
+    padding-top: 30px;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.newsContainer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+.newsPage button{
+    color: rgb(112, 111, 111);
+    height: 30px;
+    width: fit-content;
+    padding: 0 15px;
+    border-radius: 50px;
+    border: none;
+
+}
+.newsContainer span{
+    
+    color: rgb(112, 111, 111);
+}
+.newsIcon{
+    margin-left: 10%;
+}
+
+/* .newsOne, .newsTwo, .newsThree, .newsFour, .newsFive{
+    padding-top: 10px;
+} */
+
+.side{
+    height: 40%;
+    position: sticky;
+    top: 190px;
+}
+
+.side p{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+.side a{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+.sideBtn button{
+    width: 40px;
+    flex-basis: 30%;
+    margin: 10px 5px;
+}
+.sideBtn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot{
+    font-weight: 65px;
+    color: rgb(230, 235, 230);
+    font-size: 50px;
+    padding: 30px 0;
+    border-bottom: 1px solid rgb(241, 238, 238); 
+}
+.sideFoot{
+    margin-top: 30px;
+    
+    color: rgb(112, 111, 111);
+}
+.sideFoot a{
+    line-height: 2;
+    padding: 20px;
+}
+

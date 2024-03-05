@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+}
+.navItems{
+    display: none;
+   
+}
+.navButton{
+    margin-left: 20px;
+    width: 50%;
+}
+.logo{
+    margin-left: 20px;
+    width: 50%;
+   
+}
+.header{
+    font-size: 100px;
+    line-height: 1;
+}
+.landingPage{
+    height: fit-content;
+   padding: 0 10px;
+}
+.trendingBox{
+    display: grid;
+}
+.newsContainer{
+    padding: 10px 5px;
+}
+
+.newsPage{
+    padding: 10px 20px;
+    display: grid;
+}
+.newsIcon{
+    display: none;
+}
+.side{
+    position: static;
+}
+.sideFoot{
+    padding-bottom: 20px;
+}
+.sideBtn button{
+    width: 50px;
+    height: 50px;
+}
